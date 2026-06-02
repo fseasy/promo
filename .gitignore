@@ -1,0 +1,20 @@
+# Hugo
+.hugo_build.lock
+/public/
+
+# Dependencies
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+*.swp
+*.swo
+
+# Build output
+*.exe
+*.dll
+*.so

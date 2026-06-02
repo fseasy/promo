@@ -1,0 +1,18 @@
+{{ define "main" }}
+<section class="home">
+    <div class="hero">
+        <h1>{{ .Site.Title }}</h1>
+        <p>{{ i18n "hero_subtitle" }}</p>
+    </div>
+
+    <div class="promo-grid">
+        {{ range .Site.Sections }}
+        <a href="{{ .RelPermalink }}" class="promo-card">
+            <h2>{{ .Title }}</h2>
+            <p>{{ .Description }}</p>
+            <span class="card-link">{{ i18n "learn_more" }} →</span>
+        </a>
+        {{ end }}
+    </div>
+</section>
+{{ end }}

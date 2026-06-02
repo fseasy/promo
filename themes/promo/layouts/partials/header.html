@@ -1,0 +1,14 @@
+<header class="site-header">
+    <nav class="nav">
+        <a href="{{ .Site.BaseURL }}" class="logo">{{ .Site.Title }}</a>
+        <div class="nav-links">
+            <select class="lang-select" onchange="location.href=this.value">
+                {{ range .Site.Languages }}
+                <option value="{{ if eq .Lang "en" }}/{{ else }}/{{ .Lang }}/{{ end }}"{{ if eq .Lang $.Language.Lang }} selected{{ end }}>
+                    {{ .LanguageName }}
+                </option>
+                {{ end }}
+            </select>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,71 @@
+baseURL = "http://localhost:1313/"
+languageCode = 'en'
+title = 'FS Promo'
+theme = 'promo'
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[languages]
+[languages.en]
+languageName = 'English'
+weight = 1
+languageCode = 'en'
+
+[languages.zh-CN]
+languageName = '简体中文'
+weight = 2
+languageCode = 'zh-CN'
+
+[languages.zh-TW]
+languageName = '繁體中文'
+weight = 3
+languageCode = 'zh-TW'
+
+[languages.th]
+languageName = 'ไทย'
+weight = 4
+languageCode = 'th'
+
+[languages.vi]
+languageName = 'Tiếng Việt'
+weight = 5
+languageCode = 'vi'
+
+[languages.id]
+languageName = 'Bahasa Indonesia'
+weight = 6
+languageCode = 'id'
+
+[languages.ja]
+languageName = '日本語'
+weight = 7
+languageCode = 'ja'
+
+[languages.hi]
+languageName = 'हिंदी'
+weight = 8
+languageCode = 'hi'
+
+[languages.es]
+languageName = 'Español'
+weight = 9
+languageCode = 'es'
+
+[languages.it]
+languageName = 'Italiano'
+weight = 10
+languageCode = 'it'
+
+[languages.ko]
+languageName = '한국인'
+weight = 11
+languageCode = 'ko'
+
+[languages.pt]
+languageName = 'Português'
+weight = 12
+languageCode = 'pt'
