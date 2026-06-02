@@ -1,4 +1,4 @@
 {
-  "buildCommand": "hugo --environment production",
+  "buildCommand": "curl -L https://github.com/gohugoio/hugo/releases/download/v0.154.5/hugo_extended_0.154.5_linux-amd64.tar.gz -o hugo.tar.gz && tar -xzf hugo.tar.gz && rm hugo.tar.gz && ./hugo --environment production",
   "outputDirectory": "public"
 }
