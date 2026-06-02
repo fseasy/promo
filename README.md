@@ -1,0 +1,2 @@
+# promo
+Promo resources
